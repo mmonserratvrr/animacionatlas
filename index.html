@@ -1,44 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Construcción de Sudamérica</title>
+
+    <title>Construcción de América del Sur</title>
+
+    <!-- D3 -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <main class="map-container">
+    <main class="scene">
 
         <svg
-            id="south-america"
-            viewBox="0 0 600 800"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-
-            <!-- Contorno de Sudamérica -->
-            <path
-                id="continent"
-                d="M300,70
-                   C250,80 220,110 215,150
-                   C205,190 220,220 205,260
-                   C190,310 175,350 180,400
-                   C185,450 165,500 180,550
-                   C195,610 220,670 250,720
-                   C275,760 300,775 315,735
-                   C330,700 325,660 345,620
-                   C365,580 390,550 400,510
-                   C415,465 405,420 425,380
-                   C445,340 455,300 440,260
-                   C425,215 400,180 375,145
-                   C350,110 330,80 300,70 Z"
-            />
-
+            id="map"
+            viewBox="0 0 900 900"
+            preserveAspectRatio="xMidYMid meet">
         </svg>
 
     </main>
 
     <script src="script.js"></script>
+
 </body>
+
 </html>
